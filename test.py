@@ -1,5 +1,5 @@
 def run():
-    print('Hola desde Win')
+    print('Hola desde AWS')
 
 if __name__ == '__main__':
     run()
