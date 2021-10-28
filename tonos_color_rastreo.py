@@ -6,7 +6,8 @@ def nothing():
     pass
 
 def run():
-    cap = cv2.VideoCapture('rtsp://admins:abroot@192.168.0.2:554/stream1')
+    #cap = cv2.VideoCapture('rtsp://admins:abroot@192.168.0.2:554/stream1')
+    cap = cv2.VideoCapture(0)
     cv2.namedWindow('Video')
     cv2.createTrackbar('R', 'Video', 0, 255, nothing)
     cv2.createTrackbar('G', 'Video', 0, 255, nothing)
